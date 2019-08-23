@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: end_wiki
+ * User: 苏近之
  * Date: 2018/7/31
  * Time: 23:22
  */
 
-namespace JinZhiSu;
+namespace SeeToLight;
 
 class StringOrNumberValidator implements ValidatorInterface
 {

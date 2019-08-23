@@ -1,12 +1,12 @@
 <?php
 /**
  * 整形数值校验类
- * User: 杨起帆
+ * User: 苏近之
  * Date: 2018/9/1
  * Time: 9:40
  */
 
-namespace JinZhiSu;
+namespace SeeToLight;
 
 class IntegerValidator implements ValidatorInterface
 {

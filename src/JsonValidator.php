@@ -1,12 +1,12 @@
 <?php
 /**
  * Json 格式字符串校验类
- * User: 杨起帆
+ * User: 苏近之
  * Date: 2018/8/29
  * Time: 9:05
  */
 
-namespace JinZhiSu;
+namespace SeeToLight;
 
 class JsonValidator implements ValidatorInterface
 {

@@ -1,12 +1,12 @@
 <?php
 /**
  * 最小值校验类
- * User: 杨起帆
+ * User: 苏近之
  * Date: 2018/8/31
  * Time: 17:08
  */
 
-namespace JinZhiSu;
+namespace SeeToLight;
 
 class MinValidator implements ValidatorInterface
 {

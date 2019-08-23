@@ -1,11 +1,11 @@
 <?php
 /**
  * 数值校验类
- * User: 季俊潇
+ * User: 苏近之
  * Date: 2018/7/31
  * Time: 22:33
  */
-namespace JinZhiSu;
+namespace SeeToLight;
 
 class NumberValidator implements ValidatorInterface
 {

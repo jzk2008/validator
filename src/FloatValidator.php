@@ -1,12 +1,12 @@
 <?php
 /**
  * 单精度浮点数校验类
- * User: 杨起帆
+ * User: 苏近之
  * Date: 2018/9/1
  * Time: 9:36
  */
 
-namespace JinZhiSu;
+namespace SeeToLight;
 
 class FloatValidator implements ValidatorInterface
 {

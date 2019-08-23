@@ -5,7 +5,7 @@
  * Date: 2018/7/31
  * Time: 23:25
  */
-namespace JinZhiSu;
+namespace SeeToLight;
 
 class EmailValidator implements ValidatorInterface
 {

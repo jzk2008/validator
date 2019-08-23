@@ -1,9 +1,14 @@
 {
     "name": "seetolight/validator",
-    "description": "php validator",
+    "description": "PHP Validator.",
     "type": "library",
     "require": {
         "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "JinZhiSu\\": "src/"
+        }
     },
     "license": "MIT",
     "authors": [

@@ -6,7 +6,7 @@
  * Time: 10:39
  */
 
-namespace JinZhiSu;
+namespace SeeToLight;
 
 class Validator
 {

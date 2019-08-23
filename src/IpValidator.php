@@ -1,12 +1,12 @@
 <?php
 /**
  * IP 校验类
- * User: 季俊潇
+ * User: 苏近之
  * Date: 2018/7/31
  * Time: 23:26
  */
 
-namespace JinZhiSu;
+namespace SeeToLight;
 
 class IpValidator implements ValidatorInterface
 {
