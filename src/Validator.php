@@ -85,7 +85,7 @@ class Validator
             if (strpos($class, ':')) {
                 $class = substr($class, 0, strpos($class, ':'));
             }
-            $validator = '\\JinZhiSu\\' . ucfirst($class) . 'Validator';
+            $validator = '\\SeeToLight\\' . ucfirst($class) . 'Validator';
             if (!(new $validator)->check($value, $rule)) {
                 return false;
             }
