@@ -1,0 +1,16 @@
+{
+    "name": "seetolight/validator",
+    "description": "php validator",
+    "type": "library",
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "seeToLight",
+            "email": "552039447@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
