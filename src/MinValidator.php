@@ -21,6 +21,6 @@ class MinValidator implements ValidatorInterface
     {
        list($rule, $mix) = explode(':', $rule);
 
-       return boolval(is_numeric($value) && $rule >= $mix);
+       return boolval(is_numeric($value) && $value >= $mix);
     }
 }
