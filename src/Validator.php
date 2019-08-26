@@ -14,7 +14,7 @@ class Validator
     protected $ruleMap = [];
     protected $message = [];
     protected $defaultValues = [];
-    protected static $lastError = '';
+    protected static $lastError = null;
 
     public function __construct ($data)
     {
@@ -51,7 +51,7 @@ class Validator
                     if (!isset($this->message[$field])) {
                         self::$lastError = '字段校验错误';
                     } else {
-                        self::$lastError = self::getLastError() ??$this->message[$field];
+                        self::$lastError = self::getLastError() ?? $this->message[$field];
                     }
                     return false;
                 }
